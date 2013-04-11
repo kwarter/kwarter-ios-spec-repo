@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license = 'https://github.com/kwarter/kwarter-ocmock/blob/master/Source/License.txt'
   s.author = { 'Erik Doernenburg' => 'erik@doernenburg.com' }
   s.source = { :git => 'https://github.com/kwarter/kwarter-ocmock.git',
-               :commit => '7bfd45333bc23b0ca5d7fbf8a2f78379c181f91f' }
+               :commit => '452a7a758c3d65252b9804898b86865532fa4985' }
   s.platform = :ios, '5.0'
   
   s.summary = 'OCMock is an Objective-C implementation of mock objects.'
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Source/OCMock/*.{h,m}'
   s.public_header_files = 'Source/OCMock/*.h'
-  s.prefix_header_contents = '#ifdef __OBJC__', '  #import <OCMock/OCMock.h>', '#endif'
+  s.prefix_header_contents = '#ifdef __OBJC__', '  #import "OCMock.h"', '#endif'
 end
