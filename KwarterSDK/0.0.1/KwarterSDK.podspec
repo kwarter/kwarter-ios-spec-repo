@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 
     s.dependency          'Kwarter-AFNetworking'
     s.dependency          'Kwarter-AFOAuth2Client'
-    s.dependency          'Kwarter-SSToolkit'
-    s.dependency          'Kwarter-SSKeychain'
     s.dependency          'Kwarter-Facebook-iOS-SDK'
-    s.dependency          'Kwarter-SDURLCache'
     s.dependency          'Kwarter-JMImageCache'
+    s.dependency          'Kwarter-SDURLCache'
+    s.dependency          'Kwarter-SSKeychain'
+    s.dependency          'Kwarter-SSToolkit'
 
     s.subspec 'no-arc' do |sp|
         sp.source_files = 'KwarterSDK/Remote/Reachability/*.{h,m}'
