@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author = 'Peter Steinberger', 'steipete@gmail.com'
   s.source = {
     :git => 'https://github.com/kwarter/Kwarter-PSTCollectionView.git',
-    :commit => 'HEAD'
+    :commit => 'ce067baeb44fb4056906802d12670f53d8ba9b9b'
   }
   s.platform = :ios, '4.3'
   s.source_files = 'PSTCollectionView/'
