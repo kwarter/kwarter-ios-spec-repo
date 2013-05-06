@@ -43,6 +43,6 @@ Pod::Spec.new do |s|
     files = FileList['RACExtensions/*.{h,m}']
     sp.ios.source_files = files.dup.exclude(/NSTask/)
     sp.osx.source_files = files
-    sp.dependency 'ReactiveCocoa/Core'
+    sp.dependency 'Kwarter-ReactiveCocoa/Core'
   end
 end
