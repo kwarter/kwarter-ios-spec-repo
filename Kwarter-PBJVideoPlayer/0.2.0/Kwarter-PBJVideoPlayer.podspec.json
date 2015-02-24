@@ -1,6 +1,6 @@
 {
   "name": "Kwarter-PBJVideoPlayer",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "summary": "iOS video player, simple drop in component featuring touch-to-play",
   "homepage": "https://github.com/kwarter/Kwarter-PBJVideoPlayer",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/kwarter/Kwarter-PBJVideoPlayer.git",
-    "tag": "v0.1.11"
+    "tag": "v0.2.0_k"
   },
   "frameworks": [
     "Foundation",
