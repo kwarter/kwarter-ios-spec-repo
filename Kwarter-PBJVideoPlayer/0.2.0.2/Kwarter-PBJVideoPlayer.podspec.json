@@ -1,0 +1,27 @@
+{
+  "name": "Kwarter-PBJVideoPlayer",
+  "version": "0.2.0.1",
+  "summary": "iOS video player, simple drop in component featuring touch-to-play",
+  "homepage": "https://github.com/kwarter/Kwarter-PBJVideoPlayer",
+  "license": "MIT",
+  "authors": {
+    "Patrick Piemonte": "piemonte@alumni.cmu.edu"
+  },
+  "source": {
+    "git": "https://github.com/kwarter/Kwarter-PBJVideoPlayer.git",
+    "tag": "v0.2.0.2"
+  },
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "CoreGraphics",
+    "QuartzCore",
+    "UIKit"
+  ],
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": "Source",
+  "requires_arc": true,
+  "screenshots": "https://raw.github.com/piemonte/PBJVideoPlayer/master/PBJVideoPlayer.gif"
+}
