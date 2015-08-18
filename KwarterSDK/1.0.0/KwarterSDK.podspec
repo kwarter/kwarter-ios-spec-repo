@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
     s.dependency          'Kwarter-AFNetworking'
     s.dependency          'Kwarter-AFOAuth2Client'
-    s.dependency          'Kwarter-Facebook-iOS-SDK'
+    s.dependency          'Facebook-iOS-SDK'
     s.dependency          'Kwarter-JMImageCache'
     s.dependency          'Kwarter-SDURLCache'
     s.dependency          'Kwarter-SSKeychain'
